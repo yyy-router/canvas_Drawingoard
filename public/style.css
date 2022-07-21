@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #0D6EFD;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boardBack {
+    width: 700px;
+    height: 600px;
+    background-color: #f0f0f0;
+}
+
+.btnBack {
+    width: 210px;
+    height: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btnBack button {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#canvas {
+    cursor: url(pen.png) 6 28, auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid;
+    top: 30px;
+}
+
